@@ -5,6 +5,7 @@ public class Main {
         System.out.println("Введите любое целое не отрицательное число: ");
         int input = new Scanner(System.in).nextInt();
         System.out.println(avg(input));
+        System.out.println("test");
     }
 
     public static double avg(int num) {
